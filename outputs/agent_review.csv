@@ -1,0 +1,37 @@
+variant,question,expected,answer,correct,tool_choice_notes
+original,How many graph papers are in Theme 0: chatbot / chatbots / customer?,164,FINAL: There are 164 graph papers in Theme 0: chatbot / chatbots / customer.,1,ask_graph used the full Theme 0 name and returned 164 papers.
+original,Which is the most frequent method in Theme 0: chatbot / chatbots / customer?,method:structural equation modeling,"The most frequent method in Theme 0: chatbot / chatbots / customer is **structural equation modeling**, which appears in 3 papers.
+
+Other methods include: experiments (2), structural equation modeling (SEM) (2), and several other methods that appear once.
+
+Source: ask_graph result",1,ask_graph used the full Theme 0 name and identified structural equation modeling as the most frequent method.
+original,Which is the most frequent data type in Theme 0: chatbot / chatbots / customer?,data_type:survey,"The most frequent data type in Theme 0: chatbot / chatbots / customer is **survey**, with 125 instances.
+
+Source: ask_graph result",1,ask_graph used the full Theme 0 name and identified survey as the most frequent data type.
+original,How many graph papers are in Theme 1: advertising / marketing / advertisements?,136,FINAL: There are 0 graph papers in Theme 1: advertising / marketing / advertisements.,0,ask_graph received a shortened Theme 1 name and returned 0 papers instead of 136.
+original,Which is the most frequent method in Theme 1: advertising / marketing / advertisements?,method:review,"The available information does not contain the most frequent method in Theme 1: advertising / marketing / advertisements.
+
+FINAL: The available information does not contain the most frequent method in Theme 1: advertising / marketing / advertisements.",0,"ask_graph received a shortened Theme 1 name, so the lookup returned no methods."
+original,Which is the most frequent data type in Theme 1: advertising / marketing / advertisements?,data_type:literature,"The available information does not contain the most frequent data type in Theme 1: advertising / marketing / advertisements. The tool returned no papers, methods, or data for this theme.FINAL: The available information does not contain the most frequent data type in Theme 1: advertising / marketing / advertisements.",0,"ask_graph received a shortened Theme 1 name, so the lookup returned no data types."
+original,Find the paper titled This is the moment: examining small business adoption of generative AI. What is its EID?,2-s2.0-105053834155,"The EID for the paper titled ""This is the moment: examining small business adoption of generative AI"" is **2-s2.0-105053834155**.
+
+FINAL: 2-s2.0-105053834155",1,search_papers found the requested small-business adoption paper and returned the correct EID.
+original,Find the paper titled Scaffolding Student Learning with ChatGPT. What is its EID?,2-s2.0-105030697939,"The paper titled ""Scaffolding Student Learning with ChatGPT"" has the EID **2-s2.0-105030697939**.
+
+FINAL: 2-s2.0-105030697939",1,search_papers found the requested student learning paper and returned the correct EID.
+clarified,How many graph papers are in Theme 0: chatbot / chatbots / customer?,164,FINAL: There are 0 graph papers in Theme 0: chatbot / chatbots / customer.,0,ask_graph received a shortened Theme 0 name and returned 0 papers instead of 164.
+clarified,Which is the most frequent method in Theme 0: chatbot / chatbots / customer?,method:structural equation modeling,"The tool returned no information regarding the most frequent method in Theme 0: chatbot / chatbots / customer.
+
+FINAL: I do not have the information to answer this question.",0,"ask_graph received a shortened Theme 0 name, so the lookup returned no methods."
+clarified,Which is the most frequent data type in Theme 0: chatbot / chatbots / customer?,data_type:survey,"The tool indicates that for Theme 0: chatbot / chatbots / customer, there are no papers, methods, or data listed. Therefore, I cannot determine the most frequent data type based on the available information.FINAL: I cannot determine the most frequent data type because no data is available for Theme 0: chatbot / chatbots / customer.",0,"ask_graph received a shortened Theme 0 name, so the lookup returned no data types."
+clarified,How many graph papers are in Theme 1: advertising / marketing / advertisements?,136,FINAL: There are 0 graph papers in Theme 1: advertising / marketing / advertisements.,0,ask_graph received a shortened Theme 1 name and returned 0 papers instead of 136.
+clarified,Which is the most frequent method in Theme 1: advertising / marketing / advertisements?,method:review,"The tool returned no information regarding the most frequent method in Theme 1: advertising / marketing / advertisements.
+
+FINAL: I do not have the information to answer this question.",0,"ask_graph received a shortened Theme 1 name, so the lookup returned no methods."
+clarified,Which is the most frequent data type in Theme 1: advertising / marketing / advertisements?,data_type:literature,"The tool indicates that there are no papers, methods, or data associated with Theme 1: advertising / marketing / advertisements. Therefore, I cannot determine the most frequent data type.FINAL: I cannot determine the most frequent data type because the tool returned no data for Theme 1: advertising / marketing / advertisements.",0,"ask_graph received a shortened Theme 1 name, so the lookup returned no data types."
+clarified,Find the paper titled This is the moment: examining small business adoption of generative AI. What is its EID?,2-s2.0-105053834155,"The EID for the paper titled ""This is the moment: examining small business adoption of generative AI"" is **2-s2.0-105053834155**.
+
+FINAL: 2-s2.0-105053834155",1,search_papers found the requested small-business adoption paper and returned the correct EID.
+clarified,Find the paper titled Scaffolding Student Learning with ChatGPT. What is its EID?,2-s2.0-105030697939,"The paper titled ""Scaffolding Student Learning with ChatGPT"" has the EID **2-s2.0-105030697939**.
+
+FINAL: 2-s2.0-105030697939",1,search_papers found the requested student learning paper and returned the correct EID.

@@ -1,0 +1,13 @@
+
+/scopus_genai_business.csv
+/.venv/
+/lib/
+/rag_class/
+/s3_source/
+.DS_Store
+*.zip
+/outputs/s3/
+/outputs/topics.npy
+/outputs/minilm.npy
+/outputs/agent_review_normalized.csv
+/outputs/agent_traces_normalized.jsonl

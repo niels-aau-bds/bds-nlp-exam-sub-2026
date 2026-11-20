@@ -1,0 +1,16 @@
+# Python 3.13 was used on macOS.
+s3-bibliometric[bertopic]==0.18.1
+bertopic==0.17.4
+sentence-transformers>=5,<7
+numpy>=2,<3
+pandas>=2.2,<4
+scikit-learn>=1.8,<2
+networkx>=3.4,<4
+matplotlib>=3.9,<4
+pyvis==0.3.2
+openai>=1.40,<4
+pydantic>=2,<3
+requests>=2,<3
+ipykernel>=6
+nbconvert>=7,<8
+gradio>=5,<7
